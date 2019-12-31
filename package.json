@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sebixon/TypeScript-Class-Types.git"
+    "url": "git+https://github.com/swojdyga/TypeScript-Class-Types.git"
   },
   "author": "Sebastian Wojdyga",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sebixon/TypeScript-Class-Types/issues"
+    "url": "https://github.com/swojdyga/TypeScript-Class-Types/issues"
   },
-  "homepage": "https://github.com/sebixon/TypeScript-Class-Types#readme",
+  "homepage": "https://github.com/swojdyga/TypeScript-Class-Types#readme",
   "devDependencies": {
     "@types/chai": "^4.2.7",
     "@types/mocha": "^5.2.7",
