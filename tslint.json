@@ -1,0 +1,34 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "whitespace": [
+            true,
+            "check-decl",
+            "check-operator",
+            "check-module",
+            "check-separator",
+            "check-rest-spread",
+            "check-type",
+            "check-typecast",
+            "check-type-operator",
+            "check-preblock"
+        ],
+        "ordered-imports": false,
+        "interface-name": [true, "never-prefix"],
+        "ban-types": false,
+        "no-bitwise": false,
+        "max-classes-per-file": [true, 1, "exclude-class-expressions"],
+        "object-literal-shorthand": false,
+        "callable-types": false
+    },
+    "rulesDirectory": [],
+    "linterOptions": {
+        "exclude": [
+            "src/*.spec.ts"
+        ]
+    }
+}
