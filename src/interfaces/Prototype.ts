@@ -1,3 +1,3 @@
-export interface Prototype<T extends {} = {}> extends Function {
+export default interface Prototype<T extends {} = {}> {
     prototype: T;
 }

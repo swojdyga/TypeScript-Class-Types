@@ -1,6 +1,6 @@
-import { Constructor } from "./Constructor";
-import { AbstractClass } from "./AbstractClass";
+import Constructor from "./Constructor";
+import AbstractClass from "./AbstractClass";
 
-export interface Class<T extends {} = {}> extends AbstractClass<T>, Constructor<T> {
+export default interface Class<T extends {} = {}> extends AbstractClass<T>, Constructor<T> {
 
 }

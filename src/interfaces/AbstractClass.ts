@@ -1,5 +1,5 @@
-import { Prototype } from "./Prototype";
+import Prototype from "./Prototype";
 
-export interface AbstractClass<T extends {} = {}> extends Prototype<T> {
+export default interface AbstractClass<T extends {} = {}> extends Prototype<T> {
 
 }

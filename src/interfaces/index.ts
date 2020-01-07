@@ -1,5 +1,5 @@
-import { AbstractClass } from "./AbstractClass";
-import { Class } from "./Class";
+import AbstractClass from "./AbstractClass";
+import Class from "./Class";
 
 export {
     AbstractClass,
