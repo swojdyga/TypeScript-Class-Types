@@ -1,13 +1,13 @@
 {
   "name": "typescript-class-types",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "TypeScript Class Types",
-  "main": "./build/index.js",
-  "types": "./build/index.d.ts",
+  "main": "./build/lib/index.js",
+  "types": "./build/dts/index.d.ts",
   "scripts": {
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "test": "mocha -r ts-node/register src/**/*.spec.ts",
-    "build": "tsc || rimraf -r build/*",
+    "build": "(rimraf -r build/* && tsc && tsc --project tsconfig.es.json && tsc --project tsconfig.amd.json) || rimraf -r build/*",
     "main": "npm run lint && npm run test && npm run build"
   },
   "repository": {
