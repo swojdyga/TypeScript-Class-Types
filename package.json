@@ -20,7 +20,7 @@
     "url": "https://github.com/swojdyga/TypeScript-Class-Types/issues"
   },
   "files": [
-    "build",
+    "build"
   ],
   "homepage": "https://github.com/swojdyga/TypeScript-Class-Types#readme",
   "devDependencies": {
