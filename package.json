@@ -1,6 +1,6 @@
 {
   "name": "typescript-class-types",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "TypeScript Class Types",
   "main": "./build/lib/index.js",
   "types": "./build/dts/index.d.ts",
@@ -20,8 +20,7 @@
     "url": "https://github.com/swojdyga/TypeScript-Class-Types/issues"
   },
   "files": [
-    "build/amd",
-    "build/es"
+    "build",
   ],
   "homepage": "https://github.com/swojdyga/TypeScript-Class-Types#readme",
   "devDependencies": {
