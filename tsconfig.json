@@ -1,7 +1,13 @@
 {
-    "extends": "./tsconfig.base.json",
     "compilerOptions": {
         "module": "commonjs",
-        "outDir": "build/lib"
+        "target": "es6",
+        "strictNullChecks": true,
+        "declaration": true,
+        "declarationDir": "build",
+        "outDir": "build"
     },
+    "include": [
+        "src/index.ts"
+    ]
 }
