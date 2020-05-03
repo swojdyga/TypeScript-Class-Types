@@ -38,6 +38,19 @@ describe(`Class`, () => {
         expect(result).to.be.instanceOf(ExampleClass);
     });
 
+    it(`Should can create new object instance with concrete attributes from constant declared as Class interface with concrete class and concrete constructor arguments as arguments types.`, () => {
+        class ExampleClass {
+            constructor(a: number, b: string) {
+                return;
+            }
+        }
+
+        const someClass: Class<ExampleClass, [number, string]> = ExampleClass;
+        const result = new someClass(10, "Hello World!");
+
+        expect(result).to.be.instanceOf(ExampleClass);
+    });
+
     it(`Should can create new object instance from constant declared as Class interface with concrete class as argument type and should can call method which existing in ExampleClass.`, () => {
         class ExampleClass {
             public someMethod(): string {

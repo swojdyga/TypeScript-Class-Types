@@ -1,3 +1,3 @@
-export default interface Constructor<T extends {} = {}> {
-    new (...args: any[]): T;
+export default interface Constructor<T extends {} = {}, A extends unknown[] = unknown[]> {
+    new (...args: A): T;
 }
