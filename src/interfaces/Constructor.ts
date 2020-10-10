@@ -1,5 +1,5 @@
 export default interface Constructor<
-    T extends any = any,
+    T extends {} = {},
     A extends any[] = any[],
 > {
     new (...args: A): T;
